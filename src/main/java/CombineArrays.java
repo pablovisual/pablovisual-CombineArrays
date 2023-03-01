@@ -11,6 +11,7 @@ public class CombineArrays {
     public int[] combine(int[] arr1, int[] arr2){
         int[] combinedList = new int[arr1.length + arr2.length];
         int counter = arr1.length - 1;
+        
         for (int index = 0; index < arr1.length; index++) {
             combinedList[index] = arr1[index];
         }
